@@ -2793,3 +2793,57 @@ File Path                             PID  Runtime      # DAGs    # Errors  Last
 ----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
 /opt/airflow/dags/spark_airflow.py    812  1.01s             0           1  34002.60s       2024-09-19T02:38:07                       0
 ================================================================================
+[2024-09-19T06:52:33.653+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/spark_airflow.py                           1           0  8.89s           2024-09-19T06:52:05                      34
+================================================================================
+[2024-09-19T06:54:30.200+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/spark_airflow.py    813  58.76s            1           0  8.89s           2024-09-19T06:52:05                      34
+================================================================================
+[2024-09-19T06:55:15.825+0000] {manager.py:1377} ERROR - Processor for /opt/airflow/dags/spark_airflow.py with PID 813 started at 2024-09-19T06:52:37.981859+00:00 has timed out, killing it.
+[2024-09-19T06:55:22.976+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/spark_airflow.py                           0           1  157.80s         2024-09-19T06:55:15                       0
+================================================================================
+[2024-09-19T06:56:03.905+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/spark_airflow.py    814  14.98s            0           1  157.80s         2024-09-19T06:55:15                       0
+================================================================================
+[2024-09-19T06:57:20.649+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2024-09-19T06:57:21.991+0000] {manager.py:835} INFO - There are 1 files in /opt/airflow/dags
+[2024-09-19T06:57:25.359+0000] {manager.py:1377} ERROR - Processor for /opt/airflow/dags/spark_airflow.py with PID 814 started at 2024-09-19T06:55:48.247938+00:00 has timed out, killing it.
+[2024-09-19T06:57:25.565+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/spark_airflow.py                           0           1  97.11s          2024-09-19T06:57:25                       0
+================================================================================
+[2024-09-19T06:57:58.013+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/spark_airflow.py    821  1.08s             0           1  97.11s          2024-09-19T06:57:25                       0
+================================================================================
+[2024-09-19T06:58:27.023+0000] {manager.py:468} INFO - Exiting gracefully upon receiving signal 15
+[2024-09-19T06:58:27.024+0000] {manager.py:468} INFO - Exiting gracefully upon receiving signal 15

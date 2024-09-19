@@ -9,3 +9,11 @@
 [2024-09-19T06:52:42.343+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_airflow.py for tasks to queue
 [2024-09-19T06:52:43.352+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:52:43.195+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spark_airflow.py
 [2024-09-19T06:53:24.830+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:53:16.917+0000] {timeout.py:68} ERROR - Process timed out, PID: 813
+[2024-09-19T06:56:02.814+0000] {processor.py:186} INFO - Started process (PID=814) to work on /opt/airflow/dags/spark_airflow.py
+[2024-09-19T06:56:03.488+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_airflow.py for tasks to queue
+[2024-09-19T06:56:04.919+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:56:04.351+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spark_airflow.py
+[2024-09-19T06:57:17.308+0000] {processor.py:925} INFO - DAG(s) 'sparking_flow' retrieved from /opt/airflow/dags/spark_airflow.py
+[2024-09-19T06:57:58.908+0000] {processor.py:186} INFO - Started process (PID=821) to work on /opt/airflow/dags/spark_airflow.py
+[2024-09-19T06:57:58.988+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/spark_airflow.py for tasks to queue
+[2024-09-19T06:58:01.591+0000] {logging_mixin.py:190} INFO - [2024-09-19T06:57:59.124+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/spark_airflow.py
+[2024-09-19T06:58:19.685+0000] {processor.py:925} INFO - DAG(s) 'sparking_flow' retrieved from /opt/airflow/dags/spark_airflow.py
